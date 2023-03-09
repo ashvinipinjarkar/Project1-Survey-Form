@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project 1: Survey Form</title>
+    <style>
+        body{
+           
+            position: absolute;
+            display:block;
+            margin-left: 350px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 550px;
+        
+        }
+        caption{
+            font-size: 14px;
+            align-items: center;
+            align-content: center;
+        }
+        form{
+           
+            font-size: 12px;
+            align-self: center;
+        } 
+        input{
+            font-size: 10px;
+            color: rgb(169, 168, 168);
+            
+        }
+        select{
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+  <form action="success.html">
+    <h1>Survey Form To Date My Daughter</h1>
+    <p><strong> Note: </strong>Form is to be completed at least <strong>21 days </strong>prior to date</p>
+    <hr><br>
+    <!--Persional details starts from here--->
+    <caption style="font-size: 14px;"><strong>Personal Details</strong></caption><br><br>
+    <label for="fn">First Name</label>
+    <input type="text" id="fn" value="Enter Your First Name" required><br><br>
+    <label for="ls"></label>Last Name</label>
+    <input type="text" id="ls" value="Enter Your Last Name" required><br><br>
+    <label for="ag">Age </label>
+    <input type="number" id="ag" required><br><br>
+    <lable for="gn">Gender</lable>
+    <select id="fn"><option>Male</option>
+                    <option>Female</option></select><br><br>
+    <label for="ed"></label>Email Address</label>
+    <input type="email" id="ed" value="Please Enter Your Email" required><br><br>
+    <label for="phn"></label>Phone Number</label>
+    <input type="tel" id="phn" value="Your Phone Number" required><br><br> 
+    <label for="iq"></label>IQ Level</label>
+    <input type="text" id="iq" value="IQ LEVEL" required><br><br>  
+    <hr><br>
+    <!--Check All That Apply starts from here--->
+    <caption style="font-size: 14px;"><strong>Check All That Apply</strong></caption><br><br>
+    <label for="cb">I love spending money</label>
+    <input type="checkbox" id="cb"><br><br>
+    <label for="cb">I work full time</label>
+    <input type="checkbox" id="cb"><br><br>
+    <label for="cb">I have tattoos and piercing</label>
+    <input type="checkbox" id="cb"><br><br>
+    <label for="cb">I earn more than $10000 a month</label>
+    <input type="checkbox" id="cb"><br><br>
+    <p style="font-size: 14px;"><strong>Honesty is the Best Policy</strong></p><br>
+    <hr><br>
+    <!--Pick Up Lines starts from here-->
+    <caption style="font-size: 14px;"><strong>Pick Up Lines</strong></caption><br><br>
+    <p>In about 20 worlds construct a pich up line which will atract my doughter</p><br>
+    <lable for="pl"><strong>Pick up Lines</strong></lable>
+    <textarea id="pl" rows="2" cols="30"></textarea><br>
+    <label for="sb" ></label>
+    <input type="submit" id="sb" value="Submit" style="font-size: 14px;">
+      </form>
+    
+</body>
+</html>
